@@ -1,0 +1,12 @@
+{
+  "name": "cloud-torrent",
+  "description": "Download torrents and upload to cloud storage.",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node cloud-torrent"
+  },
+  "dependencies": {
+    "node-torrent": "0.2.1",
+    "googleapis": "0.4.5"
+  }
+}
