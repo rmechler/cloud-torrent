@@ -6,7 +6,7 @@
     "start": "node cloud-torrent"
   },
   "dependencies": {
-    "node-torrent": "0.2.1",
+    "node-torrent": "git://github.com/superafroman/node-torrent",
     "googleapis": "0.4.5"
   }
 }
