@@ -10,6 +10,8 @@ var torrentUrl = '';
 var url = process.argv.length > 2 ? process.argv[2] : magnet;
 var torrent = client.addTorrent(url);
 
+process.setMaxListeners(1000);
+
 // when the torrent completes, move it's files to another area
 torrent.on('complete', function() {
     console.log('complete!');
